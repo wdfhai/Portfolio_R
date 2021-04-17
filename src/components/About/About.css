@@ -1,0 +1,55 @@
+#aboutContainer {
+  font-family: "Maven Pro";
+  padding: 20px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  opacity: 0.9;
+}
+
+.h1,
+h3 {
+  font-weight: bolder;
+}
+
+#portrait {
+  height: 200px;
+  width: 200px;
+  border: 2px solid white;
+  border-radius: 50%;
+  margin: 0px 20px 60px 20px;
+}
+
+.btn-lg {
+  background-color: rgb(242, 130, 78);
+  color: #fff;
+  border: 0px;
+  margin: 10px;
+}
+
+#bioCard {
+  background-color: inherit;
+  color: white;
+}
+
+#twitterBtn,
+#gitHubBtn,
+#linkedInBtn,
+#cvBtn,
+#emailBtn,
+#phoneBtn {
+  color: white;
+  font-weight: bolder;
+}
+
+.btn-lg:hover {
+  background-color: rgb(221, 89, 1);
+}
+
+.btn-lg:active {
+  background-color: rgb(194, 78, 0);
+  color: #fff;
+}

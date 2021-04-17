@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "name": "Innovate Rx",
+    "image": "/assets/images/innovateRX.png",
+    "description": "A MVC framework app designed to simulate virtual medical visits with your favorite doctor!",
+    "gitHub": "https://github.com/wdfhai/Innovate-Rx",
+    "deployed": "https://wdfhai-innovate-rx.herokuapp.com/home"
+  },
+  {
+    "id": 2,
+    "name": "Suitcase",
+    "image": "/assets/images/suitcase.png",
+    "description": "A travel app focused on providing vital at-a-glance data on any city in the world.",
+    "gitHub": "https://github.com/wdfhai/Suitcase",
+    "deployed":"https://wdfhai.github.io/Suitcase/"
+  },
+  {
+    "id": 3,
+    "name": "Blog This!",
+    "image": "/assets/images/blogThis.png",
+    "description": "A basic blog site using an MVC framework and SQL CRUD operations.",
+    "gitHub": "https://github.com/wdfhai/blog_this",
+    "deployed":"https://blog-this-wdfhai.herokuapp.com/home"
+  },
+  {
+    "id": 4,
+    "name": "Jot It Down!",
+    "image": "/assets/images/jotItDown.png",
+    "description": "A quick note taker app, because who needs to remember their grocery list?!",
+    "gitHub": "https://github.com/wdfhai/jot_it_down",
+    "deployed":"https://jot-it-down-by-wdfhai.herokuapp.com/"
+  },
+  {
+    "id": 5,
+    "name": "Business - Behind The Scenes",
+    "image": "/assets/images/businessBTS.png",
+    "description": "A server-side framework for the behind the scenes operations of an e-commerce company.",
+    "gitHub": "https://github.com/wdfhai/business_bts",
+    "deployed":"#"
+  },
+  {
+    "id": 6,
+    "name": "Rain Or Shine!",
+    "image": "/assets/images/rainOrShine.png",
+    "description": "An application designed to use 3rd party APIs to provide weather related information.",
+    "gitHub": "https://github.com/wdfhai/rain_or_shine",
+    "deployed":"https://wdfhai.github.io/rain_or_shine/"
+  },
+  {
+    "id": 7,
+    "name": "Team Builder",
+    "image": "/assets/images/teamBuilder.png",
+    "description": "A CLI application designed to display cards containing all information for all members of a team.",
+    "gitHub": "https://github.com/wdfhai/team_builder",
+    "deployed":"#"
+  },
+  {
+    "id": 8,
+    "name": "Manage My Employees",
+    "image": "/assets/images/manageMyEmployees.png",
+    "description": "A CLI application designed to manage employees of a small business.",
+    "gitHub": "https://github.com/wdfhai/manage_my_employees",
+    "deployed":"#"
+  },
+  {
+    "id": 9,
+    "name": "Password Generator",
+    "image": "/assets/images/passwordGenerator.png",
+    "description": "A simple JavaScript based application designed to generate random passwords.",
+    "gitHub": "https://github.com/wdfhai/password-generator",
+    "deployed":"https://wdfhai.github.io/password-generator/index.html"
+  },
+  {
+    "id": 10,
+    "name": "README Generator",
+    "image": "/assets/images/readmeGenerator.png",
+    "description": "A CLI application designed to generate markdown files for repositories, following Good Readme guidelines.",
+    "gitHub": "https://github.com/wdfhai/README-generator",
+    "deployed":"#"
+  },
+  {
+    "id": 11,
+    "name": "Daily Game Plan",
+    "image": "/assets/images/dailyGamePlan.png",
+    "description": "A local storage based application designed to plan your day by the hour.",
+    "gitHub": "https://github.com/wdfhai/daily_game_plan",
+    "deployed":"https://wdfhai.github.io/daily_game_plan/"
+  },
+  {
+    "id": 12,
+    "name": "Console Log Skills",
+    "image": "/assets/images/consoleLogSkills.png",
+    "description": "A basic front end application designed as a quiz based on your coding knowledge.",
+    "gitHub": "https://github.com/wdfhai/console.log.skills",
+    "deployed":"https://wdfhai.github.io/console.log.skills/"
+  }
+]

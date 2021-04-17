@@ -1,0 +1,42 @@
+#uxContainer {
+  padding: 20px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  background-color: black;
+  opacity: 0.8;
+  color: white;
+}
+
+#constructionImg {
+  width: 100%;
+  padding: 30px;
+}
+
+#projectCard {
+  background-color: whitesmoke;
+  max-width: 20rem;
+  margin: 5px;
+}
+
+.img-responsive {
+  padding: 0px;
+  height: 300px;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 200px;
+}
+
+#activeBtn {
+  background-color: rgb(242, 130, 78);
+  color: #fff;
+  border: 0px;
+  margin: 5px;
+}
+
+.disabled {
+  background-color: crimson;
+  color: white;
+  border: 0px;
+}

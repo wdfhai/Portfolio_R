@@ -1,0 +1,22 @@
+#wdProjectsBtn,
+#uxProjectsBtn,
+#aboutBtn {
+  font-size: 20px;
+  color: white;
+  margin-right: 30px;
+}
+
+#logo {
+  height: 150px;
+  width: 150px;
+  margin: 0px;
+}
+
+.btn-lg:hover {
+  background-color: rgb(221, 89, 1);
+}
+
+.btn-lg:active {
+  background-color: rgb(194, 78, 0);
+  color: #fff;
+}
