@@ -10,13 +10,13 @@ export const Nav = () => {
         <div className="collapse navbar-collapse" id="navToggler"> 
           <ul className="navbar-nav ml-auto mt-2 mt-lg-0">
             <li className="nav-item">
-              <Link to="/wdportfolio" className="nav-link btn">Web Development Projects</Link>
+              <Link to="/wdportfolio" className="nav-link btn" id="wdProjectsBtn">Web Development Projects</Link>
             </li>
             <li className="nav-item">
-              <Link to="/uxportfolio" className="nav-link btn">UX Design Projects</Link>
+              <Link to="/uxportfolio" className="nav-link btn" id="uxProjectsBtn">UX Design Projects</Link>
             </li>
             <li className="nav-item">
-              <Link to="/about" className="nav-link btn">Get to Know Me</Link>
+              <Link to="/about" className="nav-link btn" id="aboutBtn">Get to Know Me</Link>
             </li>
           </ul>
         </div>
