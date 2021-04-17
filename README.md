@@ -34,8 +34,8 @@ This is my portfolio, refactored to use REACT. Here you can learn more about me,
 
 Following languages, frameworks and libraries were used in the development of this project:
 
-- HTML,CSS,JavaScript
-- Bootstrap,REACT
+- HTML, CSS, JavaScript
+- Bootstrap, REACT, NodeJS
 
 ### Installation
 
