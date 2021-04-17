@@ -55,7 +55,7 @@ You can reach me for any questions or comments at the following:
 
 - Look me up on Github, where my username is <span><a href="https://github.com/wdfhai">wdfhai</a></span>.
 - Reach out to me through email at wd.fhai@outlook.com.
-- Find me on Twitter at wdfhai.
+- Find me on Twitter at <span><a href="https://twitter.com/wdfhai">@wdfhai</a></span>.
 
 ### Summary
 
