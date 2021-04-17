@@ -20,7 +20,6 @@
         <li><a href="#built-with">Built With</a></li></li>
         <li><a href="#installation">Installation</a></li>
         <li><a href="#usage">Usage</a></li>
-        <li><a href="#contributing">Contributing</a></li>
         <li><a href="#license">License</a></li>
         <li><a href="#contact">Contact</a></li>
         <li><a href="#summary">Summary</a></li>
@@ -45,16 +44,6 @@ No installation required.
 ### Usage
 
 Use the Navigation links to visit the section you want. You can also find my contact information on the "Get to know me" page.
-
-### Contributing
-
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-1. Fork the Project
-2. Create your Feature Branch
-3. Commit your Changes
-4. Push to the Branch
-5. Open a Pull Request
 
 ### License
 
