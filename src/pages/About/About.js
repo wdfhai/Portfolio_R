@@ -11,7 +11,7 @@ export function About() {
       <div className="row" id="bioRow">
         <div className="col-sm-12">
           <h1 className="card-title" style={{textAlign: "center", fontWeight: "bolder"}}>
-            About Me
+            Hi There!
           </h1>
           <br/>
           <div className="card w-100" id="bioCard">

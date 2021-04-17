@@ -1,21 +1,22 @@
 import "./Nav.css"
+import { Link } from 'react-router-dom';
 
 export const Nav = () => {
-  return(
+  return (
       <nav className="navbar navbar-expand-lg navbar-dark">
-        <a className="navbar-brand" href="">
+        <Link className="navbar-brand" to="/">
           <img src="/assets/images/logoW.png" alt="brand"/>
-        </a>
+        </Link>
         <div className="collapse navbar-collapse" id="navToggler"> 
           <ul className="navbar-nav ml-auto mt-2 mt-lg-0">
             <li className="nav-item">
-              <button className="btn btn-lg" id="wdProjectsBtn">Web Development Projects</button>
+              <Link to="/wdportfolio" className="nav-link btn">Web Development Projects</Link>
             </li>
             <li className="nav-item">
-              <button className="btn btn-lg" id="uxProjectsBtn">UX Design Projects</button>
+              <Link to="/uxportfolio" className="nav-link btn">UX Design Projects</Link>
             </li>
             <li className="nav-item">
-              <button className="btn btn-lg" id="aboutBtn">Get to Know Me</button>
+              <Link to="/about" className="nav-link btn">Get to Know Me</Link>
             </li>
           </ul>
         </div>

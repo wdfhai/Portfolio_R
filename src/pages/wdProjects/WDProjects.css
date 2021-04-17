@@ -8,7 +8,7 @@
 }
 
 #wdRow {
-  overflow-y: auto;
+  overflow-y: scroll;
   height: 600px;
   width: 100%;
 }
@@ -19,14 +19,10 @@
   margin: 5px;
 }
 
-.img-responsive {
-  padding: 0px;
-  height: 300px;
-}
-
 .card-img-top {
   width: 100%;
   height: 200px;
+  padding: 0px;
 }
 
 #activeBtn {
