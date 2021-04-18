@@ -10,7 +10,7 @@ export const Card = ({
   deployed
   })=> (
 
-    <div className="card text-white bg-dark mb-3" id="projectCard">
+    <div className="card text-white mb-3" id="projectCard">
       <img className="card-img-top" 
         src={image} 
         alt={name}

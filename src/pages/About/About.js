@@ -41,18 +41,17 @@ export function About() {
               <div className="card-body">
                 <h3 style={{fontWeight: "bolder"}}>Introduction</h3>
                 <br />
-                <p>My name is Fahad Hai, and I am a Full Stack Web Developer and UX Designer based in Houston, Texas.</p>
+                <p>My name is Fahad Hai, a Full Stack Web Developer and UX Designer in Houston, Texas, with 9 years of experience in Healthcare administration and customer service.</p>
                 <br />
                 <h3 style={{fontWeight: "bolder"}}>Design and Programming Philosophy</h3>
                 <br />
-                <p>I'm a firm believer in a clean and minimalist approach towards both design and programming. Instead of bombarding users with sensory stimuli which has a negative effect on one's psyche, I want my users to feel calm and rested when using my products and application, which in turn promotes interaction, retention and satisfaction. I always try to empathize with my users and keep the bigger picture in mind during the development of any of my projects, and my experience in UX and programming enable me to do just that.</p>
+                <p>I'm a firm believer in a clean and minimalist approach towards both design and programming. Instead of overloading users with sensory stimuli, I want them to feel relaxed and energized when using my products and applications, which in turn promotes interaction, retention and satisfaction. My background in healthcare helps me empathize with my users and keep the bigger picture in mind during the development of any of my projects, and my experience in UX and programming enable me to do just that.</p>
                 <br />
                 <h3 style={{fontWeight: "bolder"}}>Career goals and interests</h3>
                 <br />
-                <p>I chose web development and UX Design as my career because along with being a 'techie' I have
-                  always wanted to design and create content rather than just consume it. I am a firm believer that these
-                  two disciplines complement each other extremely well as they enable me to build content from the concept
-                  stage all to the finished product. Rice University and Google helped me realize my potential
+                <p>I chose Web Development and UX Design as my career because these
+                  two disciplines synergize extremely well, as they enable me to conceptualize and build content from the ideation
+                  phase all the way to the finished product. Rice University and Google helped me realize my potential
                   and now I welcome new challenges and opportunities to expand my horizons. </p>
                 <br />
                 <h3 style={{fontWeight: "bolder"}}>Education</h3>
@@ -66,7 +65,7 @@ export function About() {
                       MySQL, MongoDB, Express, Handlebars.js & ReactJS.</p>
                   </li>
                   <li>
-                    <p><b><u>Google UX Design Certification:</u></b> </p>
+                    <p><b><u>Google UX Design Certification:</u></b> (Completion in August 2021) </p>
                   </li>
                 </ul>
                 <br />
@@ -74,9 +73,7 @@ export function About() {
                 <br />
                 <p>I was born in Karachi, Pakistan, and I'm
                   a US citizen and a resident of the beautiful city of Houston, Texas. I have a Bachelors degree
-                  in Medicine from Pakistan, but after immigrating I decided to change career paths. I worked for 9 years as
-                  a administrative assistant and lead concierge at Northshore Skokie Hospital in Chicago before moving to
-                  Texas in 2019.</p>
+                  in Medicine from Pakistan, but after immigrating I decided to change career paths. I worked for 9 years in Healthcare administration in Chicago before moving to Houston in 2019.</p>
                 <br />
               </div>
             </div>

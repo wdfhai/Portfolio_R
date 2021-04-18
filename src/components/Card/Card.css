@@ -1,16 +1,16 @@
 #projectCard {
-  background-color: whitesmoke;
   max-width: 20rem;
-  margin: 5px;
+  margin: 15px;
+  background-color: black;
 }
 
-.img-responsive {
-  padding: 0px;
-  height: 300px;
+#projectCard:hover {
+  border: 1px solid rgb(242, 130, 78);
 }
 
 .card-img-top {
   width: 100%;
+  padding: 0px;
   height: 200px;
 }
 
@@ -28,10 +28,4 @@
   font-weight: bolder;
   border: 0px;
   margin: 5px;
-}
-
-.disabled {
-  background-color: crimson;
-  color: white;
-  border: 0px;
 }

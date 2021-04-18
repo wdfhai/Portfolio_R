@@ -1,0 +1,74 @@
+#homeContainer {
+  padding-top: 100px;
+}
+
+#homeJumbotron {
+  background: none;
+  color: white;
+  text-align: center;
+}
+
+#homeHeader {
+  padding: 20px;
+  display: inline-block;
+  animation: fadeIn linear 3s;
+  -webkit-animation: fadeIn linear 3s;
+  -moz-animation: fadeIn linear 3s;
+  -o-animation: fadeIn linear 3s;
+  -ms-animation: fadeIn linear 3s;
+}
+
+#homeText {
+  padding: 20px;
+  display: inline-block;
+  animation: fadeIn linear 6s;
+  -webkit-animation: fadeIn linear 6s;
+  -moz-animation: fadeIn linear 6s;
+  -o-animation: fadeIn linear 6s;
+  -ms-animation: fadeIn linear 6s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
