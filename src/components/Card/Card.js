@@ -1,4 +1,3 @@
-import { Project } from "../project";
 import "./Card.css";
 
 export const Card = ({

@@ -17,17 +17,17 @@ export function About() {
             <br/>
             <div className="card w-100" id="bioCard">
               <div className="card-header" style={{textAlign: "center"}}>
-              <a href="https://twitter.com/wdfhai" id="twitterBtn" target="_blank" className="btn btn-lg" title="Twitter"><i
+              <a href="https://twitter.com/wdfhai" id="twitterBtn" target="_blank" rel="noreferrer" className="btn btn-lg" title="Twitter"><i
                     className="fab fa-twitter"></i></a>
-                <a href="https://github.com/wdfhai" id="gitHubBtn" target="_blank" className="btn btn-lg"  title="GitHub"><i
+                <a href="https://github.com/wdfhai" id="gitHubBtn" target="_blank" rel="noreferrer" className="btn btn-lg"  title="GitHub"><i
                     className="fab fa-github"></i></a>
-                <a href="https://www.linkedin.com/in/fahadhai/" id="linkedInBtn" target="_blank" className="btn btn-lg"
+                <a href="https://www.linkedin.com/in/fahadhai/" id="linkedInBtn" target="_blank" rel="noreferrer" className="btn btn-lg"
                   title="LinkedIn"><i className="fab fa-linkedin"></i></a>
                 <a href="https://docs.google.com/document/d/1fOminBXUXq6uDrt6WL-xqS93pafk3wpflrxIUtuSx2k/edit?usp=sharing"
-                  id="cvBtn" target="_blank" className="btn btn-lg" title="CV">Resume</a>
-                <a href="mailto: wd.fhai@gmail.com" target="_blank" id="emailBtn" className="btn btn-lg" title="Email"><i
+                  id="cvBtn" target="_blank" rel="noreferrer" className="btn btn-lg" title="CV">Resume</a>
+                <a href="mailto: wd.fhai@gmail.com" target="_blank" rel="noreferrer" id="emailBtn" className="btn btn-lg" title="Email"><i
                     className="fas fa-envelope-square"></i> at wd.fhai@outlook.com</a>
-                <a href="tel:+1-224-830-3565" target="_blank" id="phoneBtn" className="btn btn-lg" title="Phone"><i
+                <a href="tel:+1-224-830-3565" target="_blank" rel="noreferrer" id="phoneBtn" className="btn btn-lg" title="Phone"><i
                     className="fas fa-phone"></i> at 224-830-3565</a>
               </div>
             </div>

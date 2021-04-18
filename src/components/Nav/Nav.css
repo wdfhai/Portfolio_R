@@ -17,3 +17,9 @@
 #aboutBtn:hover {
   background-color: rgb(221, 89, 1);
 }
+
+#wdProjectsBtn:focus,
+#uxProjectsBtn:focus,
+#aboutBtn:focus {
+  background-color: rgb(221, 89, 1);
+}
