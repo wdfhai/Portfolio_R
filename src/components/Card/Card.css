@@ -6,6 +6,8 @@
 
 #projectCard:hover {
   border: 1px solid rgb(242, 130, 78);
+  padding-bottom: 5px;
+  position: relative;
 }
 
 .card-img-top {

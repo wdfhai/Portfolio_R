@@ -4,7 +4,7 @@ import { PageContainer } from "./pages/pageContainer";
 import { WDProjects } from "./pages/wdProjects/WDProjects"
 import { UXProjects } from "./pages/uxProjects/UXProjects";
 import { About } from "./pages/About/About";
-import { Home } from "./pages/Home/Home"
+import { Home } from "./pages/Home/Home";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {

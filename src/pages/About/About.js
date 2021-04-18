@@ -41,7 +41,7 @@ export function About() {
               <div className="card-body">
                 <h3 style={{fontWeight: "bolder"}}>Introduction</h3>
                 <br />
-                <p>My name is Fahad Hai, a Full Stack Web Developer and UX Designer in Houston, Texas, with 9 years of experience in Healthcare administration and customer service.</p>
+                <p>My name is Fahad Hai, a Full Stack Web Developer and UX Designer in Houston, Texas, with 8 year background in Healthcare administration and customer service.</p>
                 <br />
                 <h3 style={{fontWeight: "bolder"}}>Design and Programming Philosophy</h3>
                 <br />
@@ -50,7 +50,7 @@ export function About() {
                 <h3 style={{fontWeight: "bolder"}}>Career goals and interests</h3>
                 <br />
                 <p>I chose Web Development and UX Design as my career because these
-                  two disciplines synergize extremely well, as they enable me to conceptualize and build content from the ideation
+                  two disciplines synergize extremely well, and enable me to conceptualize and build content from the ideation
                   phase all the way to the finished product. Rice University and Google helped me realize my potential
                   and now I welcome new challenges and opportunities to expand my horizons. </p>
                 <br />
