@@ -8,18 +8,28 @@
   text-align: center;
 }
 
-#homeHeader {
-  padding: 20px;
+#homeGreeting {
+  padding: 40px;
   display: inline-block;
-  animation: fadeIn linear 3s;
-  -webkit-animation: fadeIn linear 3s;
-  -moz-animation: fadeIn linear 3s;
-  -o-animation: fadeIn linear 3s;
-  -ms-animation: fadeIn linear 3s;
+  animation: fadeIn linear 2s;
+  -webkit-animation: fadeIn linear 2s;
+  -moz-animation: fadeIn linear 2s;
+  -o-animation: fadeIn linear 2s;
+  -ms-animation: fadeIn linear 2s;
+}
+
+#homeHeader {
+  padding: 40px;
+  display: inline-block;
+  animation: fadeIn linear 4s;
+  -webkit-animation: fadeIn linear 4s;
+  -moz-animation: fadeIn linear 4s;
+  -o-animation: fadeIn linear 4s;
+  -ms-animation: fadeIn linear 4s;
 }
 
 #homeText {
-  padding: 20px;
+  padding: 40px;
   display: inline-block;
   animation: fadeIn linear 6s;
   -webkit-animation: fadeIn linear 6s;
