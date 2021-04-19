@@ -17,15 +17,16 @@
 }
 
 #activeBtn {
-  background-color: rgb(70, 70, 70);
+  background-color: black;
+  border: 1px solid rgb(53, 53, 53);
   color: #fff;
   font-weight: bolder;
-  border: 0px;
   margin: 5px;
 }
 
 #activeBtn:hover {
   background-color: rgb(242, 130, 78);
+  border: 0px;
 }
 
 #inactiveBtn {
@@ -34,8 +35,4 @@
   font-weight: bolder;
   border: 0px;
   margin: 5px;
-}
-
-#inactiveBtn:hover {
-  background-color: crimson;
 }

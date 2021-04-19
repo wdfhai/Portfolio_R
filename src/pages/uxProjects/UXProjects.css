@@ -10,12 +10,26 @@
 #uxTitleContainer {
   padding: 20px;
   margin-top: 30px;
-  margin-bottom: 50px;
+  margin-bottom: 10px;
   color: white;
 }
 
-#constructionImg {
-  padding: 5px;
+#gifDiv {
   width: 100%;
-  object-fit: cover;
+  height: 0;
+  padding-bottom: 100%;
+  position: relative;
+}
+
+#gif {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  pointer-events: none;
+}
+
+#giphyCredit {
+  color: white;
+  font-size: 15px;
+  margin-bottom: 100px;
 }
