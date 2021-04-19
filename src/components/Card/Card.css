@@ -17,17 +17,25 @@
 }
 
 #activeBtn {
-  background-color: rgb(242, 130, 78);
+  background-color: rgb(70, 70, 70);
   color: #fff;
   font-weight: bolder;
   border: 0px;
   margin: 5px;
 }
 
+#activeBtn:hover {
+  background-color: rgb(242, 130, 78);
+}
+
 #inactiveBtn {
-  background-color: crimson;
+  background-color: rgb(70, 70, 70);
   color: #fff;
   font-weight: bolder;
   border: 0px;
   margin: 5px;
+}
+
+#inactiveBtn:hover {
+  background-color: crimson;
 }
