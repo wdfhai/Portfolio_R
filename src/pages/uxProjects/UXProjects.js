@@ -28,9 +28,9 @@ export function UXProjects() {
       <section>
         <br/>
         <div id="gifDiv">
-          <iframe id="gif" src="https://giphy.com/embed/3owyp2SViuDIGh8YoM" frameBorder="0" className="giphy-embed" allowFullScreen></iframe>
+          <iframe id="gif" src="https://giphy.com/embed/3owyp2SViuDIGh8YoM" frameBorder="0" className="giphy-embed" title="workingHard" allowFullScreen></iframe>
         </div>
-        <p><a id="giphyCredit"href="https://giphy.com/gifs/illustration-work-freelancer-3owyp2SViuDIGh8YoM">via GIPHY</a></p>
+        <p><a id="giphyCredit" href="https://giphy.com/gifs/illustration-work-freelancer-3owyp2SViuDIGh8YoM">via GIPHY</a></p>
       </section>
     </>
   )
