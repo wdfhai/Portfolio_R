@@ -1,3 +1,12 @@
+#footer {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 120px;
+  width: 100%;
+  bottom: 0px;
+  left: 0px;
+  position: fixed;
+}
+
 #twitterFooterBtn,
 #gitHubFooterBtn,
 #linkedInFooterBtn,

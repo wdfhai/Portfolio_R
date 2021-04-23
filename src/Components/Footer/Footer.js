@@ -2,7 +2,7 @@ import "./Footer.css"
 
 export const Footer = () => {
   return(
-    <footer id="footer" className="text-center text-white" style={{backgroundColor: "black", opacity: "0.8", width: "100%", bottom: "0px", left: "0px", position: "fixed"}}>
+    <footer id="footer" className="text-center">
       <div className="container-fluid p-4 pb-0">
         <section className="mx-auto">
           <a href="https://twitter.com/wdfhai" id="twitterFooterBtn" target="_blank" rel="noreferrer" className="btn btn-lg" title="Twitter"><i
