@@ -1,6 +1,6 @@
 import { useState } from "react";
 import {TiArrowUpThick} from 'react-icons/ti';
-import './topButton.css';
+import './TopButton.css';
 
 
 export const TopButton = () => {

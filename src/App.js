@@ -1,9 +1,9 @@
 import { BrowserRouter, Routes, Route} from 'react-router-dom';
-import { PageContainer } from "./pages/pageContainer";
+import { PageContainer } from "./pages/PageContainer";
 import { WDProjects } from "./pages/wdProjects/WDProjects"
 import { UXProjects } from "./pages/uxProjects/UXProjects";
-import { About } from "./pages/About/About";
-import { Home } from "./pages/Home/Home";
+import { About } from "./pages/about/About";
+import { Home } from "./pages/home/Home";
 import "./App.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
