@@ -5,8 +5,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   height: 100%;
-
-  /* Credit for background image goes to https://unsplash.com/@quincoetzee at Unsplash.com */
+  margin: 0;
   background-image: url("https://images.unsplash.com/photo-1616004675303-ae5657c14af7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxhbGx8fHx8fHx8fHwxNjE3NTUyODMw&ixlib=rb-1.2.1&q=80&w=3456&utm_source=unsplash_source&utm_medium=referral&utm_campaign=api-credit");
 
   background-repeat: no-repeat;
@@ -14,7 +13,6 @@ body {
   background-size: cover;
   background-position: center;
   background-blend-mode: darken;
-  margin: 0;
 }
 
 code {

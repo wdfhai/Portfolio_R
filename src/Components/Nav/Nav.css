@@ -1,6 +1,7 @@
 #wdProjectsBtn,
 #uxProjectsBtn,
-#aboutBtn {
+#aboutBtn,
+#blogBtn {
   font-size: 25px;
   color: white;
   margin-right: 30px;
@@ -14,12 +15,14 @@
 
 #wdProjectsBtn:hover,
 #uxProjectsBtn:hover,
-#aboutBtn:hover {
+#aboutBtn:hover,
+#blogBtn:hover {
   background-color: rgb(221, 89, 1);
 }
 
 #wdProjectsBtn:focus,
 #uxProjectsBtn:focus,
-#aboutBtn:focus {
+#aboutBtn:focus,
+#blogBtn:focus {
   background-color: rgb(221, 89, 1);
 }

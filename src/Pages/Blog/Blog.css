@@ -1,0 +1,35 @@
+#blogContainer {
+  padding: 20px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  background: none;
+  opacity: 0.8;
+  color: white;
+}
+
+#blogTitleContainer {
+  padding: 20px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  color: white;
+}
+
+#gifDiv {
+  width: 100%;
+  height: 0;
+  padding-bottom: 100%;
+  position: relative;
+}
+
+#gif {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  pointer-events: none;
+}
+
+#giphyCredit {
+  color: white;
+  font-size: 15px;
+  margin-bottom: 100px;
+}

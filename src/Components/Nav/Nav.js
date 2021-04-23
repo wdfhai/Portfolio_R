@@ -27,6 +27,9 @@ export const Nav = () => {
             <li className="nav-item">
               <Link to="/about" className="nav-link btn" id="aboutBtn">Get to Know Me</Link>
             </li>
+            <li className="nav-item">
+              <Link to="/blog" className="nav-link btn" id="blogBtn">My Blog</Link>
+            </li>
           </ul>
         </div>
         <button 
