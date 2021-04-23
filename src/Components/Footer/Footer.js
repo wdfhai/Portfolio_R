@@ -19,7 +19,7 @@ export const Footer = () => {
               className="fas fa-phone"></i></a>
         </section>
         <section className="" style={{float: "right"}}>
-        <p id="creditText">background image credit: https://unsplash.com/@quincoetzee</p>
+        <p id="creditText">Background Unsplash image credit: <a href="https://unsplash.com/@quincoetzee" target="_blank">@quincoetzee</a></p>
         </section>
       </div>
     </footer>
