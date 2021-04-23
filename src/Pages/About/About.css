@@ -13,15 +13,23 @@ p {
 }
 
 #portrait {
+  display: block;
   height: 200px;
   width: 200px;
   border: 2px solid white;
   border-radius: 50%;
-  margin: 0px 20px 60px 20px;
+  margin: 0px auto 60px auto;
+}
+
+#signatureLogo {
+  display: block;
+  height: 250px;
+  width: 250px;
+  margin: 0px auto 60px auto;
 }
 
 .btn-lg {
-  background-color: rgb(242, 130, 78);
+  background-color: transparent;
   color: #fff;
   border: 0px;
   margin: 10px;
@@ -45,4 +53,43 @@ p {
 
 .btn-lg:hover {
   background-color: rgb(249, 101, 2);
+}
+
+/* iPad Pro 10.5 screen */
+@media only screen and (min-device-width: 834px) and (max-device-width: 1112px) and (-webkit-min-device-pixel-ratio: 2) {
+  #twitterBtn,
+  #gitHubBtn,
+  #linkedInBtn,
+  #cvBtn,
+  #emailBtn,
+  #phoneBtn {
+    font-size: 20px;
+  }
+
+  #portrait {
+    height: 175px;
+    width: 175px;
+  }
+}
+
+/* iPhone X screen */
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+  #twitterBtn,
+  #gitHubBtn,
+  #linkedInBtn,
+  #cvBtn,
+  #emailBtn,
+  #phoneBtn {
+    font-size: 18px;
+  }
+
+  #portrait {
+    height: 150px;
+    width: 150px;
+  }
+
+  #signatureLogo {
+    height: 150px;
+    width: 150px;
+  }
 }

@@ -6,8 +6,8 @@ body {
   -moz-osx-font-smoothing: grayscale;
   height: 100%;
   margin: 0;
+  position: relative;
   background-image: url("https://images.unsplash.com/photo-1616004675303-ae5657c14af7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxhbGx8fHx8fHx8fHwxNjE3NTUyODMw&ixlib=rb-1.2.1&q=80&w=3456&utm_source=unsplash_source&utm_medium=referral&utm_campaign=api-credit");
-
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;

@@ -1,0 +1,57 @@
+#twitterFooterBtn,
+#gitHubFooterBtn,
+#linkedInFooterBtn,
+#cvFooterBtn,
+#emailFooterBtn,
+#phoneFooterBtn {
+  color: white;
+  font-weight: bolder;
+  font-size: 24px;
+  background-color: transparent;
+  border: 0px;
+  margin: 10px;
+}
+
+#twitterFooterBtn:hover,
+#gitHubFooterBtn:hover,
+#linkedInFooterBtn:hover,
+#cvFooterBtn:hover,
+#emailFooterBtn:hover,
+#phoneFooterBtn:hover {
+  background-color: rgb(249, 101, 2);
+}
+
+#creditText {
+  font-size: 12px;
+  color: white;
+}
+
+/* iPad Pro 10.5 screen */
+@media only screen and (min-device-width: 834px) and (max-device-width: 1112px) and (-webkit-min-device-pixel-ratio: 2) {
+  #footer {
+    height: 175px;
+    overflow-y: scroll;
+  }
+}
+
+/* iPhone X screen */
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+  #footer {
+    height: 120px;
+    overflow-y: scroll;
+  }
+
+  #twitterFooterBtn,
+  #gitHubFooterBtn,
+  #linkedInFooterBtn,
+  #cvFooterBtn,
+  #emailFooterBtn,
+  #phoneFooterBtn {
+    font-size: 18px;
+    margin: 6px;
+  }
+
+  #creditText {
+    font-size: 8px;
+  }
+}

@@ -7,7 +7,7 @@ export function WDProjects () {
     <>
       <section className="container" id="wdTitleContainer">
         <div className="row m-auto">
-          <h1 className="mx-auto">{wdProjects.length || "No"} Projects Available. Have Fun Exploring!</h1>
+          <p id="wdHeader" className="mx-auto">{wdProjects.length || "No"} Projects Available. Have Fun Exploring!</p>
         </div>
       </section>
         <br></br>

@@ -7,7 +7,7 @@ export function UXProjects() {
     <>
       <section className="container" id="uxTitleContainer">
         <div className="row m-auto">
-          <h1 className="mx-auto"> {uxProjects.length || "No"} Projects Available. Certification Ongoing! </h1>
+          <p id="uxHeader" className="mx-auto"> {uxProjects.length || "No"} Projects Available. Certification Ongoing! </p>
         </div>
       </section>
       <section className="container" id="uxContainer">

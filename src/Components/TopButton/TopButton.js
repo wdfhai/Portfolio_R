@@ -22,7 +22,8 @@ export const TopButton = () => {
   return (
     <TiArrowUpThick 
       size="56px"
-      className="scrollTop" 
+      className="scrollTop"
+      id="scrollTop" 
       onClick={scrollTop} 
       style={{display: showScroll ? 'flex' : 'none'}}/>
   );

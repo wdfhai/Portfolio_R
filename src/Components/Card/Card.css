@@ -16,6 +16,15 @@
   height: 200px;
 }
 
+#cardTitle {
+  font-size: 26px;
+  font-weight: 600;
+}
+
+#cardDesc {
+  font-size: 22px;
+}
+
 #activeBtn {
   background-color: black;
   border: 1px solid rgb(53, 53, 53);
@@ -35,4 +44,26 @@
   font-weight: bolder;
   border: 0px;
   margin: 5px;
+}
+
+/* iPad Pro 10.5 screen */
+@media only screen and (min-device-width: 834px) and (max-device-width: 1112px) and (-webkit-min-device-pixel-ratio: 2) {
+  #cardTitle {
+    font-size: 26px;
+  }
+
+  #cardDesc {
+    font-size: 20px;
+  }
+}
+
+/* iPhone X screen */
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+  #cardTitle {
+    font-size: 24px;
+  }
+
+  #cardDesc {
+    font-size: 18px;
+  }
 }

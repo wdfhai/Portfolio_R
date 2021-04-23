@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route} from 'react-router-dom';
-import { PageContainer } from "./Pages/PageContainer";
+import { PageContainer } from "./Pages/PageContainer/PageContainer";
 import { WDProjects } from "./Pages/WDProjects/WDProjects"
 import { UXProjects } from "./Pages/UXProjects/UXProjects";
 import { About } from "./Pages/About/About";

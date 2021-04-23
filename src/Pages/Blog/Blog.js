@@ -27,7 +27,7 @@ export function Blogs() {
       <section>
         <br/>
         <div id="gifDiv">
-          <iframe id="gif" src="https://giphy.com/embed/xUPGcjUQcWclgK94ti" frameBorder="0" className="giphy-embed" allowFullScreen></iframe>
+          <iframe id="gif" src="https://giphy.com/embed/xUPGcjUQcWclgK94ti" title="math-lady" frameBorder="0" className="giphy-embed" allowFullScreen></iframe>
         </div>
         <p><a id="giphyCredit" href="https://giphy.com/gifs/math-lady-meme-WRQBXSCnEFJIuxktnw">via GIPHY</a></p>
       </section>

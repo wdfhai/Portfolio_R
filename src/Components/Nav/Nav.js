@@ -9,7 +9,7 @@ export const Nav = () => {
   return (
       <nav className="navbar navbar-expand-lg navbar-dark">
         <Link className="navbar-brand" to="/">
-          <img src="/assets/images/logoW.png" alt="brand"/>
+          <img src="/assets/images/logoW.png" alt="brand" id="logo"/>
         </Link>
         <div className={
             cn(["collapse", "navbar-collapse"],{
@@ -19,16 +19,16 @@ export const Nav = () => {
             id="navToggler"> 
           <ul className="navbar-nav ml-auto mt-2 mt-lg-0">
             <li className="nav-item">
-              <Link to="/wdportfolio" className="nav-link btn" id="wdProjectsBtn">Web Development Projects</Link>
+              <Link to="/wdportfolio" className="nav-link btn" id="wdProjectsBtn" onClick={()=> setIsOpen(false)}>Web Development Projects</Link>
             </li>
             <li className="nav-item">
-              <Link to="/uxportfolio" className="nav-link btn" id="uxProjectsBtn">UX Design Projects</Link>
+              <Link to="/uxportfolio" className="nav-link btn" id="uxProjectsBtn" onClick={()=> setIsOpen(false)}>UX Design Projects</Link>
             </li>
             <li className="nav-item">
-              <Link to="/about" className="nav-link btn" id="aboutBtn">Get to Know Me</Link>
+              <Link to="/about" className="nav-link btn" id="aboutBtn" onClick={()=> setIsOpen(false)}>Get to Know Me</Link>
             </li>
             <li className="nav-item">
-              <Link to="/blog" className="nav-link btn" id="blogBtn">My Blog</Link>
+              <Link to="/blog" className="nav-link btn" id="blogBtn" onClick={()=> setIsOpen(false)}>My Blog</Link>
             </li>
           </ul>
         </div>
@@ -40,6 +40,7 @@ export const Nav = () => {
           aria-controls="navToggler" 
           aria-expanded="false" 
           aria-label="Toggle navigation"
+          style={{marginLeft: "auto"}}
           onClick={() => setIsOpen(!isOpen)}
         >
           <span className="navbar-toggler-icon"></span>

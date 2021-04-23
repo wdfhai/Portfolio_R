@@ -1,7 +1,7 @@
 .scrollTop {
   position: fixed;
   bottom: 500px;
-  right: 50px;
+  right: 120px;
   size: 5x;
   fill: white;
   align-items: center;
@@ -24,5 +24,21 @@
   }
   100% {
     opacity: 0.5;
+  }
+}
+
+/* iPad Pro 10.5 screen */
+@media only screen and (min-device-width: 834px) and (max-device-width: 1112px) and (-webkit-min-device-pixel-ratio: 2) {
+  #scrollTop {
+    bottom: 450px;
+    right: 40px;
+  }
+}
+
+/* iPhone X screen */
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+  #scrollTop {
+    bottom: 400px;
+    right: 20px;
   }
 }
