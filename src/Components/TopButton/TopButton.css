@@ -3,7 +3,7 @@
   bottom: 500px;
   right: 50px;
   size: 5x;
-  fill: gray;
+  fill: white;
   align-items: center;
   height: 40px;
   justify-content: center;
@@ -15,7 +15,7 @@
 }
 
 .scrollTop:hover {
-  opacity: 1;
+  fill: rgb(242, 130, 78);
 }
 
 @keyframes fadeIn {
