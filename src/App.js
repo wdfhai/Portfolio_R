@@ -1,9 +1,9 @@
 import { BrowserRouter, Routes, Route} from 'react-router-dom';
-import { PageContainer } from "./pages/PageContainer";
-import { WDProjects } from "./pages/wdProjects/WDProjects"
-import { UXProjects } from "./pages/uxProjects/UXProjects";
-import { About } from "./pages/about/About";
-import { Home } from "./pages/home/Home";
+import { PageContainer } from "./Pages/PageContainer";
+import { WDProjects } from "./Pages/WDProjects/WDProjects"
+import { UXProjects } from "./Pages/UXProjects/UXProjects";
+import { About } from "./Pages/About/About";
+import { Home } from "./Pages/Home/Home";
 import "./App.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 

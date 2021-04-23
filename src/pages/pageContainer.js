@@ -1,7 +1,7 @@
 import { Outlet } from "react-router-dom";
-import { Nav } from "../components/nav/Nav";
-import { TopButton } from "../components/topButton/TopButton";
-import { Footer } from "../components/Footer";
+import { Nav } from "../Components/Nav/Nav";
+import { TopButton } from "../Components/TopButton/TopButton";
+import { Footer } from "../Components/Footer";
 
 export const PageContainer = () => {
   return (

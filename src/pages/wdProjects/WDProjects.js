@@ -1,5 +1,5 @@
 import "./WDProjects.css";
-import { Card } from "../../components/card/Card"
+import { Card } from "../../Components/Card/Card"
 import wdProjects from "../../wdProjects.json";
 
 export function WDProjects () {

@@ -1,5 +1,5 @@
 import "./UXProjects.css"
-import { Card } from "../../components/card/Card";
+import { Card } from "../../Components/Card/Card";
 import uxProjects from "../../uxProjects.json";
 
 export function UXProjects() {
