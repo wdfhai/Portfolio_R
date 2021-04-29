@@ -5,6 +5,7 @@ import { UXProjects } from "./Pages/UXProjects/UXProjects";
 import { About } from "./Pages/About/About";
 import { Blogs } from "./Pages/Blog/Blog";
 import { Home } from "./Pages/Home/Home";
+import { NotFound } from "./Pages/404"
 import "./App.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -18,6 +19,7 @@ function App() {
               <Route path="/uxportfolio" element={<UXProjects />} />
               <Route path="/about" element={<About />} />
               <Route path="/blog" element={<Blogs />} />
+              <Route path="*" element={<NotFound />} />
           </Route>
       </Routes>
     </BrowserRouter>
