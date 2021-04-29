@@ -9,7 +9,7 @@ export const Home = () => {
           <br />
           <h1 id="homeHeader">I'm Fahad Hai, a Full Stack Web Developer and UX Designer.</h1>
           <br />
-          <h1 id="homeHeader">My work makes working hard looks good!</h1>
+          <h1 id="homeHeader">My websites make working hard look good!</h1>
           <br />
           <h1 id="homeText">Welcome to My Portfolio.</h1>
         </div>
