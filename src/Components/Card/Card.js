@@ -19,11 +19,11 @@ export const Card = ({
         <p id="cardDesc" className="card-text">{description}</p>
       </div>
       <div className="card-footer mx-auto">
-        <a className="btn btn-primary" id="activeBtn" type="button" href={gitHub}>Repo</a>
+        <a className="btn btn-primary" id="activeBtn" type="button" href={gitHub} target="_blank">Repo</a>
         {
           {
-            "#": <a className="btn btn-danger disabled" id="inactiveBtn" type="button" href={deployed}><s>Deployed</s></a>            
-          }[deployed] || <a className="btn btn-primary" id="activeBtn" type="button" href={deployed}>Deployed</a>
+            "#": <a className="btn btn-danger disabled" id="inactiveBtn" type="button" href={deployed} target="_blank"><s>Deployed</s></a>            
+          }[deployed] || <a className="btn btn-primary" id="activeBtn" type="button" href={deployed} target="_blank">Deployed</a>
         }
       </div>
     </div>

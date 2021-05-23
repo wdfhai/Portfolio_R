@@ -1,6 +1,22 @@
 [
   {
     "id": 1,
+    "name": "Tigerblood the Game",
+    "image": "/assets/images/tigerblood.png",
+    "description": "A browser based game based on the MERN Stack, designed as an homage to our web development cohort.",
+    "gitHub": "https://github.com/wdfhai/Tigerblood",
+    "deployed": "https://tigerbloodthegame.com"
+  },
+  {
+    "id": 2,
+    "name": "My Reading List",
+    "image": "/assets/images/myReadingList.png",
+    "description": "A MERN stack application designed to return search results from Google Books API and perform CRUD operations.",
+    "gitHub": "https://github.com/wdfhai/my_reading_list",
+    "deployed": "https://wdfhai-my-reading-list.herokuapp.com/"
+  },
+  {
+    "id": 3,
     "name": "Innovate Rx",
     "image": "/assets/images/innovateRX.png",
     "description": "A MVC framework app designed to simulate virtual medical visits with your favorite doctor!",
@@ -8,7 +24,31 @@
     "deployed": "https://wdfhai-innovate-rx.herokuapp.com/home"
   },
   {
-    "id": 2,
+    "id": 4,
+    "name": "Employee Directory",
+    "image": "/assets/images/employeeDirectory.png",
+    "description": "A REACT based application using the employee generator API to create a randomized list of company employees.",
+    "gitHub": "https://github.com/wdfhai/my_employee_directory",
+    "deployed": "https://wdfhai.github.io/my_employee_directory/"
+  },
+  {
+    "id": 5,
+    "name": "PennyWise",
+    "image": "/assets/images/pennywise.png",
+    "description": "This Progressive Web Application uses Indexed Database, Service Worker and Web Manifest to simulate a financial transaction recorder that is able to log transactions with or without an internet connection.",
+    "gitHub": "https://github.com/wdfhai/Penny_Wise",
+    "deployed":"https://penny-wise-wdfhai.herokuapp.com/"
+  },
+  {
+    "id": 6,
+    "name": "Stay In Shape",
+    "image": "/assets/images/stayInShape.png",
+    "description": "This MVC and MongoDB based app is designed to log the user's workouts and display vital information gleaned from this data in a graphical form for easy comprehension.",
+    "gitHub": "https://github.com/wdfhai/stay_in_shape",
+    "deployed":"https://stay-in-shape.herokuapp.com/"
+  },
+  {
+    "id": 7,
     "name": "Suitcase",
     "image": "/assets/images/suitcase.png",
     "description": "A travel app focused on providing vital at-a-glance data on any city in the world.",
@@ -16,7 +56,7 @@
     "deployed":"https://wdfhai.github.io/Suitcase/"
   },
   {
-    "id": 3,
+    "id": 8,
     "name": "Blog This!",
     "image": "/assets/images/blogThis.png",
     "description": "A basic blog site using an MVC framework and SQL CRUD operations.",
@@ -24,7 +64,7 @@
     "deployed":"https://blog-this-wdfhai.herokuapp.com/home"
   },
   {
-    "id": 4,
+    "id": 9,
     "name": "Jot It Down!",
     "image": "/assets/images/jotItDown.png",
     "description": "A quick note taker app, because who needs to remember their grocery list?!",
@@ -32,7 +72,7 @@
     "deployed":"https://jot-it-down-by-wdfhai.herokuapp.com/"
   },
   {
-    "id": 5,
+    "id": 10,
     "name": "Business - Behind The Scenes",
     "image": "/assets/images/businessBTS.png",
     "description": "A server-side framework for the behind the scenes operations of an e-commerce company.",
@@ -40,7 +80,7 @@
     "deployed":"#"
   },
   {
-    "id": 6,
+    "id": 11,
     "name": "Rain Or Shine!",
     "image": "/assets/images/rainOrShine.png",
     "description": "An application designed to use 3rd party APIs to provide weather related information.",
@@ -48,7 +88,7 @@
     "deployed":"https://wdfhai.github.io/rain_or_shine/"
   },
   {
-    "id": 7,
+    "id": 12,
     "name": "Team Builder",
     "image": "/assets/images/teamBuilder.png",
     "description": "A CLI application designed to display cards containing all information for all members of a team.",
@@ -56,7 +96,7 @@
     "deployed":"#"
   },
   {
-    "id": 8,
+    "id": 13,
     "name": "Manage My Employees",
     "image": "/assets/images/manageMyEmployees.png",
     "description": "A CLI application designed to manage employees of a small business.",
@@ -64,7 +104,7 @@
     "deployed":"#"
   },
   {
-    "id": 9,
+    "id": 14,
     "name": "Password Generator",
     "image": "/assets/images/passwordGenerator.png",
     "description": "A simple JavaScript based application designed to generate random passwords.",
@@ -72,7 +112,7 @@
     "deployed":"https://wdfhai.github.io/password-generator/index.html"
   },
   {
-    "id": 10,
+    "id": 15,
     "name": "README Generator",
     "image": "/assets/images/readmeGenerator.png",
     "description": "A CLI application designed to generate markdown files for repositories, following Good Readme guidelines.",
@@ -80,7 +120,7 @@
     "deployed":"#"
   },
   {
-    "id": 11,
+    "id": 16,
     "name": "Daily Game Plan",
     "image": "/assets/images/dailyGamePlan.png",
     "description": "A local storage based application designed to plan your day by the hour.",
@@ -88,7 +128,7 @@
     "deployed":"https://wdfhai.github.io/daily_game_plan/"
   },
   {
-    "id": 12,
+    "id": 17,
     "name": "Console Log Skills",
     "image": "/assets/images/consoleLogSkills.png",
     "description": "A basic front end application designed as a quiz based on your coding knowledge.",
