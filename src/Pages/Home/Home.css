@@ -1,41 +1,88 @@
 #homeContainer {
-  padding-top: 50px;
-}
-
-#homeJumbotron {
-  background: none;
+  margin-top: 50px;
+  /* background: none; */
   color: white;
   text-align: center;
 }
 
+#greetingContainer {
+  position: relative;
+  top: 25vh;
+  left: 0;
+}
+
+.innerDiv {
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  position: absolute;
+}
+
+#homeGreeting,
+#homeHeader,
+#homeHeader2,
+#homeText {
+  opacity: 0;
+  text-align: center;
+  display: block;
+}
+
 #homeGreeting {
-  padding: 40px;
-  display: inline-block;
+  animation: fade linear 4s;
+  -webkit-animation: fade linear 4s;
+  -moz-animation: fade linear 4s;
+  -o-animation: fade linear 4s;
+  -ms-animation: fade linear 4s;
+}
+
+#homeHeader,
+#homeHeader2 {
+  animation: fade linear 5s;
+  -webkit-animation: fade linear 5s;
+  -moz-animation: fade linear 5s;
+  -o-animation: fade linear 5s;
+  -ms-animation: fade linear 5s;
+}
+
+#homeText {
   animation: fadeIn linear 2s;
   -webkit-animation: fadeIn linear 2s;
   -moz-animation: fadeIn linear 2s;
   -o-animation: fadeIn linear 2s;
   -ms-animation: fadeIn linear 2s;
+  animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  -o-animation-fill-mode: forwards;
+  -ms-animation-fill-mode: forwards;
+  z-index: 103;
+  animation-delay: 14s;
+  -webkit-animation-delay: 14s;
+  -moz-animation-delay: 14s;
+  -o-animation-delay: 14s;
+  -ms-animation-delay: 14s;
+}
+
+#homeGreeting {
+  z-index: 100;
 }
 
 #homeHeader {
-  padding: 40px;
-  display: inline-block;
-  animation: fadeIn linear 4s;
-  -webkit-animation: fadeIn linear 4s;
-  -moz-animation: fadeIn linear 4s;
-  -o-animation: fadeIn linear 4s;
-  -ms-animation: fadeIn linear 4s;
+  z-index: 101;
+  animation-delay: 4s;
+  -webkit-animation-delay: 4s;
+  -moz-animation-delay: 4s;
+  -o-animation-delay: 4s;
+  -ms-animation-delay: 4s;
 }
 
-#homeText {
-  padding: 40px;
-  display: inline-block;
-  animation: fadeIn linear 6s;
-  -webkit-animation: fadeIn linear 6s;
-  -moz-animation: fadeIn linear 6s;
-  -o-animation: fadeIn linear 6s;
-  -ms-animation: fadeIn linear 6s;
+#homeHeader2 {
+  z-index: 102;
+  animation-delay: 9s;
+  -webkit-animation-delay: 9s;
+  -moz-animation-delay: 9s;
+  -o-animation-delay: 9s;
+  -ms-animation-delay: 9s;
 }
 
 @keyframes fadeIn {
@@ -80,5 +127,204 @@
   }
   100% {
     opacity: 1;
+  }
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@-moz-keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@-o-keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@-ms-keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+/* Custom Footer CSS */
+
+#cFooter {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 120px;
+  width: 100%;
+  bottom: 0px;
+  left: 0px;
+  position: fixed;
+  opacity: 0;
+  animation: fadeIn linear 2s;
+  -webkit-animation: fadeIn linear 2s;
+  -moz-animation: fadeIn linear 2s;
+  -o-animation: fadeIn linear 2s;
+  -ms-animation: fadeIn linear 2s;
+  animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  -o-animation-fill-mode: forwards;
+  -ms-animation-fill-mode: forwards;
+  animation-delay: 16s;
+  -webkit-animation-delay: 16s;
+  -moz-animation-delay: 16s;
+  -o-animation-delay: 16s;
+  -ms-animation-delay: 16s;
+}
+
+#cTwitterFooterBtn,
+#cGitHubFooterBtn,
+#cLinkedInFooterBtn,
+#cCvFooterBtn,
+#cEmailFooterBtn,
+#cPhoneFooterBtn {
+  color: white;
+  font-weight: bolder;
+  font-size: 21px;
+  background-color: transparent;
+  border: 0px;
+  margin: 10px;
+  opacity: 0;
+  animation: fadeIn linear 1s;
+  -webkit-animation: fadeIn linear 1s;
+  -moz-animation: fadeIn linear 1s;
+  -o-animation: fadeIn linear 1s;
+  -ms-animation: fadeIn linear 1s;
+  animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  -o-animation-fill-mode: forwards;
+  -ms-animation-fill-mode: forwards;
+}
+
+#cTwitterFooterBtn:hover,
+#cGitHubFooterBtn:hover,
+#cLinkedInFooterBtn:hover,
+#cCvFooterBtn:hover,
+#cEmailFooterBtn:hover,
+#cPhoneFooterBtn:hover {
+  background-color: rgb(219, 101, 2);
+}
+
+#cCreditText {
+  font-size: 3px;
+  color: white;
+}
+
+#cTwitterFooterBtn {
+  animation-delay: 18s;
+  -webkit-animation-delay: 18s;
+  -moz-animation-delay: 18s;
+  -o-animation-delay: 18s;
+  -ms-animation-delay: 18s;
+}
+#cGitHubFooterBtn {
+  animation-delay: 19s;
+  -webkit-animation-delay: 19s;
+  -moz-animation-delay: 19s;
+  -o-animation-delay: 19s;
+  -ms-animation-delay: 19s;
+}
+#cLinkedInFooterBtn {
+  animation-delay: 20s;
+  -webkit-animation-delay: 20s;
+  -moz-animation-delay: 20s;
+  -o-animation-delay: 20s;
+  -ms-animation-delay: 20s;
+}
+#cCvFooterBtn {
+  animation-delay: 21s;
+  -webkit-animation-delay: 21s;
+  -moz-animation-delay: 21s;
+  -o-animation-delay: 21s;
+  -ms-animation-delay: 21s;
+}
+#cEmailFooterBtn {
+  animation-delay: 22s;
+  -webkit-animation-delay: 22s;
+  -moz-animation-delay: 22s;
+  -o-animation-delay: 22s;
+  -ms-animation-delay: 22s;
+}
+#cPhoneFooterBtn {
+  animation-delay: 23s;
+  -webkit-animation-delay: 23s;
+  -moz-animation-delay: 23s;
+  -o-animation-delay: 23s;
+  -ms-animation-delay: 23s;
+}
+
+/* iPad Pro 10.5 screen */
+@media only screen and (min-device-width: 334px) and (max-device-width: 1112px) and (-webkit-min-device-pixel-ratio: 2) {
+  #cFooter {
+    height: 175px;
+    overflow-y: scroll;
+  }
+}
+
+/* iPhone X screen */
+@media only screen and (min-device-width: 375px) and (max-device-width: 312px) and (-webkit-min-device-pixel-ratio: 3) {
+  #cFooter {
+    height: 120px;
+    overflow-y: scroll;
+  }
+
+  #cTwitterFooterBtn,
+  #cGitHubFooterBtn,
+  #cLinkedInFooterBtn,
+  #cCvFooterBtn,
+  #cEmailFooterBtn,
+  #cPhoneFooterBtn {
+    font-size: 13px;
+    margin: 6px;
+  }
+
+  #cCreditText {
+    font-size: 3px;
   }
 }

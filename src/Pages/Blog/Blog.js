@@ -1,3 +1,4 @@
+import { Footer } from "../../Components/Footer/Footer";
 import "./Blog.css"
 import BlogsList from "../../blogs.json";
 
@@ -31,6 +32,7 @@ export function Blogs() {
         </div>
         <p><a id="giphyCredit" href="https://giphy.com/gifs/math-lady-meme-WRQBXSCnEFJIuxktnw">via GIPHY</a></p>
       </section>
+      <Footer />
     </>
   )
 }

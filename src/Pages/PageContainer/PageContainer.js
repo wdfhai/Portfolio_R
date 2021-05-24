@@ -1,7 +1,6 @@
 import { Outlet } from "react-router-dom";
 import { Nav } from "../../Components/Nav/Nav";
 import { TopButton } from "../../Components/TopButton/TopButton";
-import { Footer } from "../../Components/Footer/Footer";
 import "./PageContainer.css"
 
 export const PageContainer = () => {
@@ -14,7 +13,6 @@ export const PageContainer = () => {
           <Outlet />
         </div>
       </section>
-      <Footer />
     </>
   )
 }

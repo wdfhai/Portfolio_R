@@ -1,5 +1,6 @@
 import "./UXProjects.css"
 import { Card } from "../../Components/Card/Card";
+import { Footer } from "../../Components/Footer/Footer";
 import uxProjects from "../../uxProjects.json";
 
 export function UXProjects() {
@@ -7,7 +8,7 @@ export function UXProjects() {
     <>
       <section className="container" id="uxTitleContainer">
         <div className="row m-auto">
-          <p id="uxHeader" className="mx-auto"> {uxProjects.length || "No"} Projects Available. Certification Ongoing! </p>
+          <p id="uxHeader" className="mx-auto"> {uxProjects.length || "No"} Projects Available. Certification Ongoing... </p>
         </div>
       </section>
       <section className="container" id="uxContainer">
@@ -32,6 +33,7 @@ export function UXProjects() {
         </div>
         <p><a id="giphyCredit" href="https://giphy.com/gifs/illustration-work-freelancer-3owyp2SViuDIGh8YoM">via GIPHY</a></p>
       </section>
+      <Footer />
     </>
   )
 }

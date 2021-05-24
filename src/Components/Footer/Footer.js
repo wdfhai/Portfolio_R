@@ -12,7 +12,7 @@ export const Footer = () => {
           <a href="https://www.linkedin.com/in/fahadhai/" id="linkedInFooterBtn" target="_blank" rel="noreferrer" className="btn btn-lg"
             title="LinkedIn"><i className="fab fa-linkedin"></i></a>
           <a href="https://docs.google.com/document/d/1fOminBXUXq6uDrt6WL-xqS93pafk3wpflrxIUtuSx2k/edit?usp=sharing"
-            id="cvBtn" target="_blank" rel="noreferrer" className="btn btn-lg" title="CV">Resumé</a>
+            id="cvFooterBtn" target="_blank" rel="noreferrer" className="btn btn-lg" title="CV">Resumé</a>
           <a href="mailto: wd.fhai@gmail.com" target="_blank" rel="noreferrer" id="emailFooterBtn" className="btn btn-lg" title="Email"><i
               className="fas fa-envelope-square"></i></a>
           <a href="tel:+1-224-830-3565" target="_blank" rel="noreferrer" id="phoneFooterBtn" className="btn btn-lg" title="Phone"><i

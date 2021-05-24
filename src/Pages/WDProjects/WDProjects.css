@@ -20,8 +20,19 @@
 }
 
 #wdHeader {
+  border-right: 0.15em solid;
+  white-space: nowrap;
+  opacity: 0;
+  overflow: hidden;
+  margin-bottom: 2rem;
   font-size: 36px;
-  text-align: center;
+  width: 18em;
+  -webkit-animation: type 4s steps(100, end);
+  animation: type 4s steps(100, end);
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-delay: 0.5s;
+  animation-delay: 0.5s;
 }
 
 /* iPad Pro 10.5 screen */
@@ -35,5 +46,37 @@
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
   #wdHeader {
     font-size: 24px;
+  }
+}
+
+@keyframes type {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  99.9% {
+    border-right: 0.15em solid white;
+  }
+  100% {
+    opacity: 1;
+    border: none;
+  }
+}
+
+@-webkit-keyframes type {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  99.9% {
+    border-right: 0.15em solid white;
+  }
+  100% {
+    opacity: 1;
+    border: none;
   }
 }

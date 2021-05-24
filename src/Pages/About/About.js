@@ -1,3 +1,4 @@
+import { Footer } from "../../Components/Footer/Footer";
 import "./About.css"
 
 export function About() {
@@ -87,6 +88,7 @@ export function About() {
           </div>
         </div>
       </section>
+      <Footer />
     </>
   )
 }

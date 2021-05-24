@@ -1,0 +1,30 @@
+#jumbo {
+  color: white;
+  background-color: transparent;
+  text-align: center;
+  margin-top: 15rem;
+}
+
+#text {
+  font-size: 5rem;
+  --interval: 2s;
+  display: block;
+  text-shadow: 0 0 10px var(--color1), 0 0 20px var(--color2),
+    0 0 40px var(--color3), 0 0 80px var(--color4);
+  will-change: filter, color;
+  filter: saturate(60%);
+  animation: flicker steps(100) var(--interval) 1s infinite;
+  color: orange;
+  --color1: rgb(250, 167, 95);
+  --color2: yellow;
+  --color3: rgb(255, 162, 0);
+  --color4: red;
+  font-family: cursive;
+}
+
+@keyframes flicker {
+  50% {
+    color: white;
+    filter: saturate(200%) hue-rotate(20deg);
+  }
+}

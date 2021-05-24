@@ -5,7 +5,7 @@ import { UXProjects } from "./Pages/UXProjects/UXProjects";
 import { About } from "./Pages/About/About";
 import { Blogs } from "./Pages/Blog/Blog";
 import { Home } from "./Pages/Home/Home";
-import { NotFound } from "./Pages/404"
+import { NotFound } from "./Pages/404/404";
 import "./App.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 

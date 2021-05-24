@@ -1,5 +1,6 @@
 import "./WDProjects.css";
-import { Card } from "../../Components/Card/Card"
+import { Card } from "../../Components/Card/Card";
+import { Footer } from "../../Components/Footer/Footer";
 import wdProjects from "../../wdProjects.json";
 
 export function WDProjects () {
@@ -26,6 +27,7 @@ export function WDProjects () {
           ))}
         </div>
       </section>
+      <Footer />
     </>
   );
 };
