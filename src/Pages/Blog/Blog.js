@@ -12,7 +12,7 @@ export function Blogs() {
           <p className="mx-auto" id="blogHeader">{BlogsList.length || "No"} Blogs Currently Available.</p>
         </div>
         <div className="row m-auto">
-          <p className="mx-auto" id="blogHeader2">Major Brainstorming Under Way! </p>
+          <p className="mx-auto" id="blogHeader2">Major Brainstorming Under Way!</p>
         </div>
       </section>
       {/* <section className="container" id="blogContainer">
