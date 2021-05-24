@@ -11,6 +11,19 @@ export const Nav = () => {
         <Link className="navbar-brand" to="/">
           <img src="/assets/images/logoW.png" alt="brand" id="logo"/>
         </Link>
+        <button 
+          className="navbar-toggler" 
+          type="button" 
+          data-toggle="collapse" 
+          data-target="#navToggler" 
+          aria-controls="navToggler" 
+          aria-expanded="false" 
+          aria-label="Toggle navigation"
+          style={{marginLeft: "auto"}}
+          onClick={() => setIsOpen(!isOpen)}
+        >
+          <span className="navbar-toggler-icon"></span>
+        </button>
         <div className={
             cn(["collapse", "navbar-collapse"],{
               show: isOpen
@@ -32,19 +45,6 @@ export const Nav = () => {
             </li>
           </ul>
         </div>
-        <button 
-          className="navbar-toggler" 
-          type="button" 
-          data-toggle="collapse" 
-          data-target="#navToggler" 
-          aria-controls="navToggler" 
-          aria-expanded="false" 
-          aria-label="Toggle navigation"
-          style={{marginLeft: "auto"}}
-          onClick={() => setIsOpen(!isOpen)}
-        >
-          <span className="navbar-toggler-icon"></span>
-        </button>
       </nav>
   )
 };

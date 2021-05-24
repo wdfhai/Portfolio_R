@@ -169,7 +169,7 @@ p {
 }
 
 /* iPad Pro 10.5 screen */
-@media only screen and (min-device-width: 834px) and (max-device-width: 1112px) and (-webkit-min-device-pixel-ratio: 2) {
+@media only screen and (min-device-width: 834px) and (max-device-width: 991px) and (-webkit-min-device-pixel-ratio: 2) {
   #twitterBtn,
   #gitHubBtn,
   #linkedInBtn,
@@ -186,7 +186,7 @@ p {
 }
 
 /* iPhone X screen */
-@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+@media only screen and (min-device-width: 375px) and (max-device-width: 833px) and (-webkit-min-device-pixel-ratio: 3) {
   #twitterBtn,
   #gitHubBtn,
   #linkedInBtn,

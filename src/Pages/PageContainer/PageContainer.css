@@ -1,18 +1,18 @@
 #pageContainer {
   height: 100%;
-  padding-bottom: 175px;
+  padding-bottom: 150px;
   margin: 0px;
 }
 
 /* iPad Pro 10.5 screen */
-@media only screen and (min-device-width: 834px) and (max-device-width: 1112px) and (-webkit-min-device-pixel-ratio: 2) {
+@media only screen and (min-device-width: 834px) and (max-device-width: 991px) and (-webkit-min-device-pixel-ratio: 2) {
   #pageContainer {
     padding-bottom: 200px;
   }
 }
 
 /* iPhone X screen */
-@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+@media only screen and (min-device-width: 375px) and (max-device-width: 833px) and (-webkit-min-device-pixel-ratio: 3) {
   #pageContainer {
     padding-bottom: 150px;
   }
