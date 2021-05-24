@@ -27,7 +27,6 @@
   overflow: hidden;
   margin-bottom: 2rem;
   font-size: 36px;
-  width: 10em;
   -webkit-animation: type 2s steps(100, end);
   animation: type 2s steps(100, end);
   -webkit-animation-fill-mode: forwards;
@@ -35,6 +34,7 @@
 }
 
 #wdHeader {
+  width: 11em;
   -webkit-animation-delay: 0.5s;
   animation-delay: 0.5s;
 }

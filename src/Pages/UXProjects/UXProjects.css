@@ -22,7 +22,6 @@
   overflow: hidden;
   margin-bottom: 2rem;
   font-size: 36px;
-  width: 14.5em;
   -webkit-animation: type 3s steps(100, end);
   animation: type 3s steps(100, end);
   -webkit-animation-fill-mode: forwards;
@@ -32,6 +31,7 @@
 }
 
 #uxHeader {
+  width: 15em;
   -webkit-animation-delay: 0.5s;
   animation-delay: 0.5s;
 }
