@@ -14,22 +14,28 @@
   color: white;
 }
 
-#gifDiv {
-  width: 100%;
-  height: 0;
-  padding-bottom: 100%;
-  position: relative;
+#blogHeader,
+#blogHeader2 {
+  border-right: 0.15em solid;
+  white-space: nowrap;
+  opacity: 0;
+  overflow: hidden;
+  margin-bottom: 2rem;
+  font-size: 36px;
+  width: 13em;
+  -webkit-animation: type 3s steps(100, end);
+  animation: type 3s steps(100, end);
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
 }
 
-#gif {
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  pointer-events: none;
+#blogHeader {
+  -webkit-animation-delay: 0.5s;
+  animation-delay: 0.5s;
 }
 
-#giphyCredit {
-  color: white;
-  font-size: 15px;
-  margin-bottom: 100px;
+#blogHeader2 {
+  width: 14em;
+  -webkit-animation-delay: 3.5s;
+  animation-delay: 3.5s;
 }

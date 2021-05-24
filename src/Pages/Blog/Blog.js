@@ -1,13 +1,18 @@
 import { Footer } from "../../Components/Footer/Footer";
+import { Nav } from "../../Components/Nav/Nav";
 import "./Blog.css"
 import BlogsList from "../../blogs.json";
 
 export function Blogs() {
   return (
     <>
+    <Nav />
       <section className="container" id="blogTitleContainer">
         <div className="row m-auto">
-          <h1 className="mx-auto"> {BlogsList.length || "No"} Blogs Available. Major Brainstorming Under Way! </h1>
+          <p className="mx-auto" id="blogHeader">{BlogsList.length || "No"} Blogs Currently Available.</p>
+        </div>
+        <div className="row m-auto">
+          <p className="mx-auto" id="blogHeader2">Major Brainstorming Under Way! </p>
         </div>
       </section>
       {/* <section className="container" id="blogContainer">
@@ -25,13 +30,6 @@ export function Blogs() {
           ))}
         </div>
       </section> */}
-      <section>
-        <br/>
-        <div id="gifDiv">
-          <iframe id="gif" src="https://giphy.com/embed/xUPGcjUQcWclgK94ti" title="math-lady" frameBorder="0" className="giphy-embed" allowFullScreen></iframe>
-        </div>
-        <p><a id="giphyCredit" href="https://giphy.com/gifs/math-lady-meme-WRQBXSCnEFJIuxktnw">via GIPHY</a></p>
-      </section>
       <Footer />
     </>
   )

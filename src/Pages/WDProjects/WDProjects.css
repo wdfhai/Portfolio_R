@@ -19,20 +19,29 @@
   overflow: hidden;
 }
 
-#wdHeader {
+#wdHeader,
+#wdHeader2 {
   border-right: 0.15em solid;
   white-space: nowrap;
   opacity: 0;
   overflow: hidden;
   margin-bottom: 2rem;
   font-size: 36px;
-  width: 18em;
-  -webkit-animation: type 4s steps(100, end);
-  animation: type 4s steps(100, end);
+  width: 9em;
+  -webkit-animation: type 2s steps(100, end);
+  animation: type 2s steps(100, end);
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
+}
+
+#wdHeader {
   -webkit-animation-delay: 0.5s;
   animation-delay: 0.5s;
+}
+
+#wdHeader2 {
+  -webkit-animation-delay: 2.5s;
+  animation-delay: 2.5s;
 }
 
 /* iPad Pro 10.5 screen */

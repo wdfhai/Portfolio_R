@@ -1,8 +1,53 @@
+import { useState } from "react";
+import { Link } from "react-router-dom";
+import cn from "classnames"
 import "./Home.css"
 
 export const Home = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
   return (
     <>
+      <nav className="navbar navbar-expand-lg navbar-dark" id="navbarHome">
+        <Link className="navbar-brand" to="/">
+          <img src="/assets/images/logoW.png" alt="brand" id="logoHome"/>
+        </Link>
+        <div className={
+            cn(["collapse", "navbar-collapse"],{
+              show: isOpen
+            })
+            }
+            id="navToggler"> 
+          <ul className="navbar-nav ml-auto mt-2 mt-lg-0">
+            <li className="nav-item">
+              <Link to="/wdportfolio" className="nav-link btn" id="wdProjectsBtnHome" onClick={()=> setIsOpen(false)}>Web Development Projects</Link>
+            </li>
+            <li className="nav-item">
+              <Link to="/uxportfolio" className="nav-link btn" id="uxProjectsBtnHome" onClick={()=> setIsOpen(false)}>UX Design Projects</Link>
+            </li>
+            <li className="nav-item">
+              <Link to="/about" className="nav-link btn" id="aboutBtnHome" onClick={()=> setIsOpen(false)}>Get to Know Me</Link>
+            </li>
+            <li className="nav-item">
+              <Link to="/blog" className="nav-link btn" id="blogBtnHome" onClick={()=> setIsOpen(false)}>My Blog</Link>
+            </li>
+          </ul>
+        </div>
+        <button 
+          className="navbar-toggler" 
+          type="button" 
+          data-toggle="collapse" 
+          data-target="#navToggler" 
+          aria-controls="navToggler" 
+          aria-expanded="false" 
+          aria-label="Toggle navigation"
+          style={{marginLeft: "auto"}}
+          onClick={() => setIsOpen(!isOpen)}
+        >
+          <span className="navbar-toggler-icon"></span>
+        </button>
+      </nav>
+      <div className="container">
       <section className="container" id="homeContainer">
         <div className="container" id="greetingContainer">
           <div className="innerDiv">
@@ -40,6 +85,7 @@ export const Home = () => {
           </section>
         </div>
       </footer>
+      </div>
     </>
   )
 }

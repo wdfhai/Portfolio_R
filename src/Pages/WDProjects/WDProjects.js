@@ -1,4 +1,5 @@
 import "./WDProjects.css";
+import { Nav } from "../../Components/Nav/Nav";
 import { Card } from "../../Components/Card/Card";
 import { Footer } from "../../Components/Footer/Footer";
 import wdProjects from "../../wdProjects.json";
@@ -6,9 +7,14 @@ import wdProjects from "../../wdProjects.json";
 export function WDProjects () {
   return (
     <>
+      <Nav />
+      <div className="container">
       <section className="container" id="wdTitleContainer">
         <div className="row m-auto">
-          <p id="wdHeader" className="mx-auto">{wdProjects.length || "No"} Projects Available. Have Fun Exploring!</p>
+          <p id="wdHeader" className="mx-auto">{wdProjects.length || "No"} Projects Available.</p>
+        </div>
+        <div className="row m-auto">
+          <p id="wdHeader2" className="mx-auto">Have Fun Exploring!</p>
         </div>
       </section>
         <br></br>
@@ -28,6 +34,7 @@ export function WDProjects () {
         </div>
       </section>
       <Footer />
+      </div>
     </>
   );
 };
