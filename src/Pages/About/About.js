@@ -27,7 +27,7 @@ export function About() {
                       className="fab fa-github"></i></a>
                   <a href="https://www.linkedin.com/in/fahadhai/" id="linkedInBtn" target="_blank" rel="noreferrer" className="btn btn-lg"
                     title="LinkedIn"><i className="fab fa-linkedin"></i></a>
-                  <a href="https://docs.google.com/document/d/1fOminBXUXq6uDrt6WL-xqS93pafk3wpflrxIUtuSx2k/edit?usp=sharing"
+                  <a href="https://docs.google.com/document/d/12maSXFRbQDnXnrWZpQCUn1fdBmfS8vBxmmNaqfbJ6C0/edit?usp=sharing"
                     id="cvBtn" target="_blank" rel="noreferrer" className="btn btn-lg" title="CV">Resumé</a>
                   <a href="mailto: wd.fhai@gmail.com" target="_blank" rel="noreferrer" id="emailBtn" className="btn btn-lg" title="Email"><i
                       className="fas fa-envelope-square"></i> at wd.fhai@outlook.com</a>
@@ -62,7 +62,7 @@ export function About() {
                   <br />
                   <ul>
                     <li>
-                      <h4><b>Rice University Full Stack Web Development Bootcamp:</b> An intensive program
+                      <h4><b>Rice University Full Stack Web Development Certification:</b> An intensive program
                         focused on
                         gaining
                         technical programming skills in HTML5, CSS3, Javascript, JQuery, APIs, Bootstrap, Firebase, Node Js,
