@@ -7,20 +7,20 @@ export const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [doesAnimate, setDoesAnimate] = useState(true);
 
-  function toggleAnimation(){
-    let animateableEl = document.querySelectorAll(".animateable");
+  // function toggleAnimation(){
+  //   let animateableEl = document.querySelectorAll(".animateable");
 
-    if (doesAnimate === true){
-      setDoesAnimate(false);
-      animateableEl.map((el)=>{
-        el.classList.remove('animated')
-      })
-    } else {
-      setDoesAnimate(true)
-      animateableEl.map((el)=>{
-        el.classList.add('animated')
-      })
-    }
+  //   if (doesAnimate === true){
+  //     setDoesAnimate(false);
+  //     animateableEl.map((el)=>{
+  //       el.classList.remove('animated')
+  //     })
+  //   } else {
+  //     setDoesAnimate(true)
+  //     animateableEl.map((el)=>{
+  //       el.classList.add('animated')
+  //     })
+  //   }
   };
 
   useEffect(()=>{
