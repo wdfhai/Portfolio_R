@@ -21,7 +21,7 @@ export const Home = () => {
   //       el.classList.add('animated')
   //     })
   //   }
-  };
+  // };
 
   useEffect(()=>{
     const storedAnimateState = localStorage.getItem('doesAnimate' || true);
