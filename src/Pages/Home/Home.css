@@ -555,3 +555,8 @@
     font-size: 3px;
   }
 }
+
+#toggleAnimationButton {
+  top: 50%;
+  right: 50;
+}
