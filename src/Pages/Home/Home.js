@@ -73,10 +73,10 @@ export const Home = () => {
           </ul>
         </div>
       </nav>
-      <div class="custom-control custom-switch" id="toggleAnimationButton">
+      {/* <div class="custom-control custom-switch" id="toggleAnimationButton">
         <input type="checkbox" class="custom-control-input" id="customSwitch1" checked />
         <label class="custom-control-label" style={{color: "white", margin: "auto"}} for="customSwitch1">Animations</label>
-      </div>
+      </div> */}
       <div className="container">
       <section className="container" id="homeContainer">
         <div className="container" id="greetingContainer">
