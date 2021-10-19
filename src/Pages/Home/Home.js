@@ -107,7 +107,7 @@ export const Home = () => {
               id="cCvFooterBtn" target="_blank" rel="noreferrer" className="btn btn-lg animateable" title="CV">Resumé</a>
             <a href="mailto: wd.fhai@gmail.com" target="_blank" rel="noreferrer" id="cEmailFooterBtn" className="btn btn-lg animateable" title="Email"><i
                 className="fas fa-envelope-square"></i></a>
-            <a href="tel:+1-224-830-3565" target="_blank" rel="noreferrer" id="cPhoneFooterBtn" className="btn btn-lg animateable" title="Phone"><i
+            <a href="tel:+1-773-801-8481" target="_blank" rel="noreferrer" id="cPhoneFooterBtn" className="btn btn-lg animateable" title="Phone"><i
                 className="fas fa-phone"></i></a>
           </section>
           <section className="" style={{float: "right"}}>

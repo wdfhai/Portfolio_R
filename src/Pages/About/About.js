@@ -32,7 +32,7 @@ export function About() {
                   <a href="mailto: wd.fhai@gmail.com" target="_blank" rel="noreferrer" id="emailBtn" className="btn btn-lg" title="Email"><i
                       className="fas fa-envelope-square"></i> at wd.fhai@outlook.com</a>
                   <a href="tel:+1-224-830-3565" target="_blank" rel="noreferrer" id="phoneBtn" className="btn btn-lg" title="Phone"><i
-                      className="fas fa-phone"></i> at 224-830-3565</a>
+                      className="fas fa-phone"></i> at 773-801-8481</a>
                 </div>
               </div>
             </div>
