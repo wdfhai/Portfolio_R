@@ -34,9 +34,9 @@ export const Nav = () => {
             <li className="nav-item">
               <Link to="/wdportfolio" className="nav-link btn" id="wdProjectsBtn" onClick={()=> setIsOpen(false)}>Web Development Projects</Link>
             </li>
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <Link to="/uxportfolio" className="nav-link btn" id="uxProjectsBtn" onClick={()=> setIsOpen(false)}>UX Design Projects</Link>
-            </li>
+            </li> */}
             <li className="nav-item">
               <Link to="/about" className="nav-link btn" id="aboutBtn" onClick={()=> setIsOpen(false)}>Get to Know Me</Link>
             </li>
