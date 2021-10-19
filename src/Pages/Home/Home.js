@@ -87,7 +87,7 @@ export const Home = () => {
             <h1 className="animateable" id="homeHeader">I'm Fahad Hai, a Full Stack Web Developer.</h1>
           </div>
           <div className="innerDiv">
-            <h1 className="animateable" id="homeHeader2">My work prioritizes user experience, and a simple and intuitive design.</h1>
+            <h1 className="animateable" id="homeHeader2">My work prioritizes user experience and a simple and intuitive design.</h1>
           </div>
           <div className="innerDiv">
             <h1 className="animateable" id="homeText">Welcome to My Portfolio.</h1>

@@ -45,7 +45,7 @@ export function About() {
                 <div className="card-body">
                   <h2 style={{fontWeight: "bolder"}}>Introduction</h2>
                   <br />
-                  <h4>My name is Fahad Hai, a Full Stack Web Developer and UX Designer in Houston, Texas, with 8 year background in Healthcare administration and customer service.</h4>
+                  <h4>My name is Fahad Hai, a Full Stack Web Developer in Houston, Texas, with 8 year background in Healthcare administration and customer service.</h4>
                   <br />
                   <h2 style={{fontWeight: "bolder"}}>Design and Programming Philosophy</h2>
                   <br />
@@ -68,9 +68,9 @@ export function About() {
                         technical programming skills in HTML5, CSS3, Javascript, JQuery, APIs, Bootstrap, Firebase, Node Js,
                         MySQL, MongoDB, Express, Handlebars.js & ReactJS.</h4>
                     </li>
-                    <li>
+                    {/* <li>
                       <h4><b>Google UX Design Certification:</b> (Completion in August 2021) </h4>
-                    </li>
+                    </li> */}
                   </ul>
                   <br />
                   <h2 style={{fontWeight: "bolder"}}>Background</h2>
